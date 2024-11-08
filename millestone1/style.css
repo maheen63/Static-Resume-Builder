@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #93e8f3; /* Light background for the entire page */
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF; /* Button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+#resumeOutput {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #c7ecfa;
+    background-color: #45aab8; /* Light cyan background for the resume */
+    animation: fadeIn 1s ease-in-out; /* Animation for fade-in effect */
+    opacity: 0; /* Start with opacity 0 */
+    transition: opacity 1s ease-in-out; /* Smooth transition for opacity */
+}
+
+.fade-in {
+    opacity: 1; /* Fade in effect */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
